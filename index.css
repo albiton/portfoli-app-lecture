@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+    padding: 0;
+    background-color:  #130125;
+    color: #fff;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  .name h1{
+    font-size: 32px;
+    line-height: 36px;
+    margin: 32px 80px;
+  }
+  .nav-right{
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+  }
+
+  .nav-right p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 39px 16px;
+  }
+
+  .welcoma-part {
+    margin: 160px 80px;
+  }
+
+  .welcoma-part h1{
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .welcoma-part p{
+    font-family: 'Kanit';
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 32px;
+  }
+
+  .welcoma-part button{
+    width: 200px;
+    height: 56px;
+    background: #FD5A14;
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 40px;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 170px 80px;
+  }
+
+  .about-me-info h1{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .about-me-info p {
+    font-family: 'Kanit';
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+.info-img img{
+   width: 280px;
+   height: 340px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textcols-item {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 48%;
+}
+
+.textcols-item + .textcols-item {
+	margin-left: 4%;
+}
